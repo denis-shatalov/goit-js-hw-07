@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+img {
+  width: 360px;
+  height: 300px;
+}
+
+.gallery {
+  display: flex;
+  column-gap: 24px;
+  row-gap: 48px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.name-input {
+  border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    padding-left: 16px;
+}
+
+.name-output{
+font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.name-input::placeholder{
+font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: #fff;;
+  padding: 24px;
+  border-radius: 8px;
+  width: 440px;
+  height: 888px;
+}
+
+.item h2 {
+  font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    padding-bottom: 16px;
+}
+
+.item {
+    border-radius: 8px;
+      background-color: #f6f6fe;
+      padding: 16px;
+}
+
+.categories-list li {
+  margin-bottom: 8px;
+  border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    padding: 8px 16px;
+    font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #2e2f42;
+}
+
+
+.login-form {
+  border-radius: 8px;
+    padding: 24px;
+    width: 408px;
+    height: 256px;
+    background-color: #f7f3f3;
+    font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #2e2f42;
+      margin:auto;
+}
+
+.btn {
+border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background-color: #4e75ff;
+  color: #fff;
+  margin-top: 16px;
+  border: none;
+}
+
+.input-form {
+  border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    margin-top: 8px;
+}
